@@ -9,7 +9,6 @@ package universidades;
  *
  * @author SENA
  */
-public class Universidades {
-
+public class Doctor {
     
 }

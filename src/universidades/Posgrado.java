@@ -9,7 +9,15 @@ package universidades;
  *
  * @author SENA
  */
-public class Universidades {
-
-    
+public class Posgrado {
+     private  String  Programa;
+    public void setPrograma( String  Programap)
+    {
+       this.Programa= Programap;
+       
+         }
+    public  String  geTPrograma()
+    {
+        return Programa;
+    }
 }

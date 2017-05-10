@@ -9,7 +9,15 @@ package universidades;
  *
  * @author SENA
  */
-public class Universidades {
-
-    
+public class Doctorado {
+       private  String  Tesis;
+    public void setTesis( String  Tesisp)
+    {
+       this.Tesis= Tesisp;
+       
+         }
+    public  String  geTTesis()
+    {
+        return Tesis;
+    }
 }

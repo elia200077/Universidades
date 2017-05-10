@@ -9,7 +9,15 @@ package universidades;
  *
  * @author SENA
  */
-public class Universidades {
-
-    
+public class Administrativo {
+      private  String  Puesto;
+    public void setPuesto( String  Puestop)
+    {
+       this.Puesto= Puestop;
+       
+         }
+    public  String  geTPuesto()
+    {
+        return Puesto;
+    }
 }
